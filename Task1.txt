@@ -1,0 +1,9 @@
+
+## Task 1 
+
+# to obtain the required data from the given sheet.
+
+Query = SELECT DEPT_NAME, AVG(MONTHLY_SALARY) as AVG_MONTHLY_SALARY 
+        FROM Departments 
+        GROUP BY DEPT_NAME 
+        ORDER BY AVG_MONTHLY_SALARY DESC LIMIT 3;
